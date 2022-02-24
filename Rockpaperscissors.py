@@ -1,13 +1,19 @@
 import random
-print("would you like to play?")
-yes_no = input()
+print("would you like to play?\n y or n")
+yes_no = input()   
+rock_paper_scissors = ["rock", "paper", "scissors"]
 
 def game():
-    print("play again")
+
     print("rock paper scissors")
+    
     user_input = input()
-    robot_input = random.randint(1, 3)
-    if robot
+    robot_input = random.choice(rock_paper_scissors)
+    print(robot_input)
+
+def define_rules(user_input):
+    if user_input == "rock":
+        print("bruh") 
 
 while yes_no == "y":
     game()
