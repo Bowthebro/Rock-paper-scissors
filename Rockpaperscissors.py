@@ -2,6 +2,7 @@ import random
 print("would you like to play?\n y or n")
 yes_no = input()   
 rock_paper_scissors = ["rock", "paper", "scissors"]
+valid_inputs = 
 
 def game():
 
@@ -10,10 +11,11 @@ def game():
     user_input = input()
     robot_input = random.choice(rock_paper_scissors)
     print(robot_input)
+    
+    if user_input != str:
+        continue
 
-def define_rules(user_input):
-    if user_input == "rock":
-        print("bruh") 
+ 
 
 while yes_no == "y":
     game()
