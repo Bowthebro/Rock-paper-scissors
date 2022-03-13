@@ -17,6 +17,11 @@ def game():
             print("incorrect input")
             continue
 
-        elif user_input
+        elif user_input == robot_input:
+            print("draw")
+            continue
+
     else:
         exit
+
+print("END")
